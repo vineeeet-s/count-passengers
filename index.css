@@ -1,0 +1,61 @@
+body {
+     background-image: url("rail_back.jpg") ;
+     /* position: absolute; */
+     background-size: cover; 
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+      Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      color: rgb(178, 178, 59);
+      
+
+}
+
+
+h1 {
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+
+}
+
+#increment-btn {
+    background: rgb(43, 70, 4);
+}
+
+#save-btn {
+    position: center;
+    background: teal
+    
+}
+
+#reset-btn{
+    background: darkred;
+}
+#save-el {
+    color: rgba(125, 9, 9, 0.904);
+
+}
+
+#total-el{
+    color: black;
+}
